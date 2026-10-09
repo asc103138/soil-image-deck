@@ -1,0 +1,59 @@
+# SOIL Image Deck - Plate 模式規格範本
+# 投影片比例 16:9（寬 13.333 英吋 × 高 7.5 英吋）
+
+style:
+  palette:
+    bg: "#0D1B2A"        # 深夜底色
+    primary: "#00C6FF"   # 亮青藍主色
+    highlight: "#FFD700" # 金黃高光
+    text: "#FFFFFF"      # 純白文字
+    muted: "#A5B4CB"     # 弱化灰藍
+    card: "#1E3A5F"      # 玻璃/卡片背景色
+  font: "Microsoft JhengHei"
+  title_font: "Microsoft JhengHei"
+  body_font: "Microsoft JhengHei"
+
+pages:
+  - page: 1
+    image: page_01
+    img_x: 0
+    img_y: 0
+    img_w: 13.333
+    img_h: 7.5
+    bg: bg
+    blocks:
+      - type: badge
+        text: "SOIL WORKFLOW"
+        x: 0.8
+        y: 0.8
+        w: 2.4
+        h: 0.45
+        bg: primary
+        color: bg
+        size: 13
+      - type: title
+        text: "全圖流 AI 簡報\n視覺衝擊力工作坊"
+        x: 0.8
+        y: 1.6
+        w: 6.8
+        h: 2.2
+        size: 46
+        color: text
+        bold: true
+      - type: subtitle
+        text: "Antigravity 原生生圖 × 16:9 PPTX 自動組裝"
+        x: 0.8
+        y: 4.2
+        w: 6.8
+        h: 0.8
+        size: 20
+        color: primary
+      - type: progress
+        current: 1
+        total: 5
+        x: 0.8
+        y: 6.6
+        w: 3.5
+        h: 0.08
+        track: card
+        color: primary
