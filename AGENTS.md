@@ -5,7 +5,7 @@
 - **專案用途**：使用 Antigravity 原生生圖（`generate_image`）與 PPTX 打包腳本，自動產出 16:9 高張力視覺簡報（支援 baked 圖文海報模式與 plate 底圖疊字模式）。
 - **主要工作目錄**：`/Users/tunyuan/anti/soil-image-deck`
 - **全域技能路徑**：`~/.gemini/config/skills/soil-image-deck`
-- **GitHub Repo**：本地儲存庫已初始化（未設定遠端或依需求設定）
+- **GitHub Repo**：https://github.com/asc103138/soil-image-deck
 
 ## Obsidian 關聯筆記
 - **Vault 路徑**：`/Users/tunyuan/opencode_0715`
